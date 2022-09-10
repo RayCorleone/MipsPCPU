@@ -1,0 +1,50 @@
+# do {pcpu_top_tb_simulate.do}
+# vsim -voptargs=""+acc"" -L unisims_ver -L unimacro_ver -L secureip -L xil_defaultlib -L dist_mem_gen_v8_0_10 -lib xil_defaultlib xil_defaultlib.pcpu_top_tb xil_defaultlib.glbl 
+# Start time: 16:38:39 on Dec 13,2021
+# //  ModelSim PE 10.4c Jul 20 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# Loading xil_defaultlib.pcpu_top_tb
+# Loading xil_defaultlib.pcpu_top
+# Loading xil_defaultlib.imem
+# Loading dist_mem_gen_v8_0_10.dist_mem_gen_v8_0_10
+# Loading xil_defaultlib.pcpu
+# Loading xil_defaultlib.PC
+# Loading xil_defaultlib.Pipe_IF_ID
+# Loading xil_defaultlib.control
+# Loading xil_defaultlib.conflict
+# Loading xil_defaultlib.Pipe_ID_EXE
+# Loading xil_defaultlib.alu
+# Loading xil_defaultlib.adder
+# Loading xil_defaultlib.neg32
+# Loading xil_defaultlib.add32
+# Loading xil_defaultlib.add16
+# Loading xil_defaultlib.add4
+# Loading xil_defaultlib.add1
+# Loading xil_defaultlib.cla4
+# Loading xil_defaultlib.luislt
+# Loading xil_defaultlib.Pipe_EXE_MEM
+# Loading xil_defaultlib.dmem
+# Loading xil_defaultlib.Pipe_MEM_WB
+# Loading xil_defaultlib.regfile
+# Loading xil_defaultlib.glbl
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# WARNING: This core is supplied with a behavioral model. To model cycle-accurate behavior you must run timing simulation.
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 269 of file "imem.mif". Expected 2048, found 268.    : ../../../Static_Pipeline_CPU.ip_user_files/ipstatic/dist_mem_gen_v8_0_10/simulation/dist_mem_gen_v8_0.v(234)
+#    Time: 0 ps  Iteration: 0  Instance: /pcpu_top_tb/uun/imem/inst
+run -all
+# End time: 16:39:19 on Dec 13,2021, Elapsed time: 0:00:40
+# Errors: 0, Warnings: 1
